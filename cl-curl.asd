@@ -5,6 +5,8 @@
   :license "mit"
   :author "SANO Masatoshi"
   :mailto "snmsts@gmail.com"
+  :build-operation monolithic-concatenate-source-op
+  :build-pathname "curl"
   :serial t
   :components
   ((:file "package")
